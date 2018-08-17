@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "jsx": "react",
+    "jsxFactory": "HEle.createElement",
+    "declaration": true,
+    "declarationDir": "./typings",
+    "outDir": "./raw",
+    "rootDir": "./src",
+    "strict": true,
+    "noUnusedLocals": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "baseUrl": "./node_modules/",
+    "typeRoots": [
+      "./node_modules/"
+    ],
+    "types": [
+      "hele/index"
+    ],
+    "paths": {
+      "hele": [
+        "hele/typings/index.d.ts"
+      ],
+      "hbus": [
+        "hbus/typings/index.d.ts"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ]
+}
