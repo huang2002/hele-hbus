@@ -1,3 +1,7 @@
+### 0.1.2 - 2018-08-18
+
+- Fix `README.md`
+
 ### 0.1.1 - 2018-08-17
 
 - Fix minification

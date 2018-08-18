@@ -42,7 +42,7 @@ HEle.render(
 
 # APIs
 
-The example above has shown how to use this lib. If you want the detailed API reference, please read the type declaration files to learn the APIs: [`typings`](https://github.com/huang2002/hele-hbus/tree/master/typings).
+The example above has shown how to use this lib. If you want the detailed API reference, please read the source files in `src` or the type declaration files in `typings`.
 
 # Changelog
 
