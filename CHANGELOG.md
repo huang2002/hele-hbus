@@ -1,3 +1,7 @@
+### 0.1.3 - 2018-08-22
+
+- Fix peer dependencies
+
 ### 0.1.2 - 2018-08-18
 
 - Fix `README.md`
