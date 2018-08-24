@@ -1,4 +1,4 @@
-import HEle, { Component, Context } from "hele";
+import { Component, Context, createElement } from "hele";
 import * as HBus from "hbus";
 
 export const defaultBusName = 'hele-hbus-bus';

@@ -1,3 +1,7 @@
+### 0.1.4 - 2018-08-24
+
+- Fix the `import` statement
+
 ### 0.1.3 - 2018-08-22
 
 - Fix peer dependencies

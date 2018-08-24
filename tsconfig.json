@@ -3,7 +3,7 @@
     "target": "ESNext",
     "module": "ESNext",
     "jsx": "react",
-    "jsxFactory": "HEle.createElement",
+    "jsxFactory": "createElement",
     "declaration": true,
     "declarationDir": "./typings",
     "outDir": "./raw",
