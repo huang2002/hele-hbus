@@ -17,8 +17,12 @@ export class Bus<S = any, T = any, P = any> extends Component<BusProps<S, T, P>>
     constructor(props: BusProps<S, T, P>, context: any) {
         super(props, context);
         this.bus = new HBus.Bus(props.processor, props.defaultState);
-        this.name = props.name === undefined ? defaultBusName : props.name;
+        this.name = props.name!;
     }
+
+    static defaultProps = {
+        name: defaultBusName
+    };
 
     readonly bus: HBus.Bus<S, T, P>;
     readonly name: BusNameIndex;

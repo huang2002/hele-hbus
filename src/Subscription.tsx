@@ -16,13 +16,17 @@ export class Subscription<S = any, P extends keyof S = any> extends Component<Su
     constructor(props: SubscriptionProps<S, P>, context: any) {
         super(props, context);
 
-        const bus = this.bus = context[props.bus === undefined ? defaultBusName : props.bus] as HBus.Bus<S>,
+        const bus = this.bus = context[props.bus!] as HBus.Bus<S>,
             state = bus.getState();
         this.state = 'prop' in props ? state[props.prop] : state;
 
         this.subscriber = this.update.bind(this);
 
     }
+
+    static defaultProps = {
+        bus: defaultBusName
+    };
 
     readonly bus: HBus.Bus<S>;
     readonly subscriber: any;
