@@ -1,6 +1,6 @@
 {
     "name": "hele-hbus",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "HEle bindings for HBus.",
     "main": "dist/hele-hbus.umd.min.js",
     "module": "dist/hele-hbus.min.js",
@@ -47,7 +47,7 @@
         "typescript": "^3.0.1"
     },
     "peerDependencies": {
-        "hele": "0",
+        "hele": ">=0.11.0",
         "hbus": "0"
     }
 }
