@@ -1,3 +1,7 @@
+### 0.1.7 - 2018-09-23
+
+- Update devDependencies
+
 ### 0.1.6 - 2018-08-31
 
 - Improve some internals

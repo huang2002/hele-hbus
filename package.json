@@ -1,6 +1,6 @@
 {
     "name": "hele-hbus",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "description": "HEle bindings for HBus.",
     "main": "dist/hele-hbus.umd.min.js",
     "module": "dist/hele-hbus.min.js",
@@ -39,15 +39,15 @@
         "babel-core": "^6.26.3",
         "babel-plugin-external-helpers": "^6.22.0",
         "babel-preset-env": "^1.7.0",
-        "hbus": "^0.3.4",
-        "hele": "^0.11.6",
+        "hbus": "^0.3.5",
+        "hele": "^0.17.0",
         "rollup": "^0.64.1",
         "rollup-plugin-babel": "^3.0.7",
         "terser": "^3.8.1",
         "typescript": "^3.0.1"
     },
     "peerDependencies": {
-        "hele": ">=0.11.0",
+        "hele": ">=0.11",
         "hbus": "0"
     }
 }
